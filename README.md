@@ -24,5 +24,9 @@ We have some features not in `merged_info.csv`
 ## Example Layout
 One way to create different examples is to have each day of the year be an example, the days would be split at a certain point in the year with some used for training and some used for testing. 
 
+One current issue is that the way we are making predictions now is taking a day, its player count, and initial price and predicting the discount. This issue is that when making this prediction on games we want to predict discount rates on in the future, we would need to have the player count for that day, something that is not possible for us to know.
+
+I think what we would want our model to do is to see the player count up to the current/most recent date and then use that to predict discount prices for days that do not have a player count attached to them. 
+
 ## Choosing a Model
 Schuman has all classifiers on Canvas that we can run our data through to see if any perform better than others
