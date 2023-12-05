@@ -1,0 +1,30 @@
+Name: Nearest Neighbors
+Training: 0.9497058170040763
+Testing: 0.9530121391599063
+
+
+Name: Decision Tree
+Training: 0.7693259214315624
+Testing: 0.6809674415483091
+
+
+Name: Random Forest
+Training: 0.6538617660379938
+Testing: 0.6526203639231215
+
+
+Name: Neural Net
+Training: 0.5041264666421692
+Testing: 0.032357111098061254
+
+
+Name: AdaBoost
+Training: 0.7378331723908084
+Testing: 0.6711436984589055
+
+
+Name: Naive Bayes
+Training: 0.511121057264205
+Testing: 0.06017566966720078
+
+
